@@ -17,7 +17,7 @@ module RedactorRails
               belongs_to :assetable, :polymorphic => true
               belongs_to :user,      :dependent   => :destroy
 
-              attr_accessible :data, :assetable_type, :assetable_id, :assetable
+              #attr_accessible :data, :assetable_type, :assetable_id, :assetable
             end
           end
         end
